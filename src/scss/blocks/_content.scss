@@ -1,0 +1,28 @@
+.main {
+  grid-area: content;
+  padding: 0 29px;
+}
+
+.cards__list {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+  overflow-y: hidden;
+}
+
+.cards-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: var(--colorGreyLight);
+  border-radius: 10px;
+  line-height: 20px;
+  height: 128px;
+
+  div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
+}

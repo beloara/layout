@@ -1,0 +1,38 @@
+.controls {
+  padding: 20px;
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+  }
+
+  &__item {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  &__item2 {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: var(--colorGrey);
+  }
+
+  &__item3 {
+    width: 21px;
+    height: 21px;
+    border-radius: 4px;
+    background-color: var(--colorGrey);
+  }
+
+  &__link {
+    display: block;
+    width: 20px;
+    height: 25px;
+  }
+}
